@@ -6,7 +6,7 @@ public class People {
     String dateOfBitrh;
     String mother;
     String father;
-    String mariralStatus;
+    String maritalStatus;
     String partner;
 
     public void info() {
@@ -16,6 +16,6 @@ public class People {
         System.out.printf("Дата рождения: %s \n", this.dateOfBitrh);
         System.out.printf("Мать: %s \n", this.mother);
         System.out.printf("Отец: %s \n", this.father);
-        System.out.printf("Семейное положение: %s \n", this.mariralStatus);
+        System.out.printf("Семейное положение: %s \n", this.maritalStatus);
     }
 }
